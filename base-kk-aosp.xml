@@ -3,8 +3,9 @@
 
   <include name="base-kk.xml"/>
 
-  <project name="platform/external/icu4c" path="external/icu4c" remote="aosp"/>
+  <!-- Something wrong in caf icu4c.git: refs/tags/android-4.4.2_r1 is lost. Use a equivalent tag -->
+  <project name="platform/external/icu4c" path="external/icu4c" remote="caf" revision="refs/tags/AU_LINUX_ANDROID_KK.04.04.00.010.005"/>
   <project name="platform_frameworks_av" path="frameworks/av" remote="b2g" revision="b2g-4.4.2_r1"/>
-  <project name="platform_system_core" path="system/core" remote="b2g" revision="b2g-4.4.2_r1"/>
+  <project name="platform_system_core" path="system/core" remote="makermade" revision="b2g-4.4.2_r1"/>
 
 </manifest>

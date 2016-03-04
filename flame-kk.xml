@@ -38,7 +38,7 @@
   <project name="platform/hardware/qcom/wlan" path="hardware/qcom/wlan"/>
   <project name="platform/hardware/ril" path="hardware/ril" revision="b2g_kk_3.5"/>
   <project name="platform/system/bluetooth" path="system/bluetooth"/>
-  <project name="platform/system/core" path="system/core" revision="b2g_kk_3.5"/>
+  <project name="platform_system_core" path="system/core" remote="makermade" revision="b2g_kk_3.5"/>
   <project name="platform_system_nfcd" path="system/nfcd" remote="b2g" revision="master"/>
   <project name="platform/system/qcom" path="system/qcom"/>
   <project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="b2g_kk_3.5"/>
